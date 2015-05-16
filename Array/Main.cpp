@@ -17,18 +17,6 @@ int main (void)
 	intArray[2] = 5;
 	intArray[3] = 60;
 
-/*	Array<size, double> doubleArray(size);
-	doubleArray[0] = 9.0;
-	doubleArray[1] = 24.6;
-	doubleArray[2] = 3.0;
-	doubleArray[3] = 60.3;
-
-	Array<size, char> charArray(size);
-	charArray[0] = 'a';
-	charArray[1] = 'v';
-	charArray[2] = 'k';
-	charArray[3] = 's';
-*/
 	try {
 		cout<<intArray[6];
 	}
